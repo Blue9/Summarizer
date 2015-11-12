@@ -66,4 +66,4 @@ def summarize(text, length=3):
     for sentence in get_sentences(text):
         if [sentence[0], sentence_score[sentence[0]]] in max:
             summary += sentence[0] + ' '
-    print summary
+    return summary
