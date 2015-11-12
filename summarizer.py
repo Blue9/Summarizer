@@ -49,7 +49,7 @@ def get_sentence_score(text):
                 sentence_score[sentence[0]] = 0
     return sentence_score
 
-def summarize(text, length=3):
+def summarize(text, length=1):
     sentence_score = get_sentence_score(text)
     max = []
     for sentence in sentence_score:
