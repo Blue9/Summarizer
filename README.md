@@ -20,4 +20,4 @@ where `length` equals the number of sentences to condense the text down to.
 
 `get_sentence_score(text)`: Adds the score of each word in the sentences of `text` and returns this data in a dictionary in the format: `{ "sentence": score, ...}`
 
-`summarize(text)`: Described [here](https://github.com/Blue9/Summarizer#summarizing-a-paragraph-of-text).
+`summarize(text)`: Described [above](https://github.com/Blue9/Summarizer#summarizing-a-paragraph-of-text).
