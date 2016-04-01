@@ -67,3 +67,6 @@ def summarize(text, length=3):
         if [sentence[0], sentence_score[sentence[0]]] in max:
             summary += sentence[0] + ' '
     return summary
+
+def prompt_user():
+    print summarize(str(raw_input()))
